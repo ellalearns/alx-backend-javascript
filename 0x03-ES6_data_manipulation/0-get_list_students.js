@@ -8,7 +8,7 @@ export default function getListStudents() {
   const second0 = {
     id: 2,
     firstName: 'James',
-    location: 'Columnbia',
+    location: 'Columbia',
   };
 
   const third0 = {
