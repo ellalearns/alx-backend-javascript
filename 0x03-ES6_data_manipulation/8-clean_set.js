@@ -1,6 +1,13 @@
 export default function cleanSet(set, startString) {
-  const strLength = startString.length;
+  if (!set && !startString) {
+    return '';
+  }
 
+  if (!(set instanceof Set) && !(startString instanceof String)) {
+    return '';
+  }
+
+  const strLength = startString.length;
   if (strLength === 0) {
     return '';
   }
