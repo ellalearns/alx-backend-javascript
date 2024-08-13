@@ -1,5 +1,5 @@
 export default function getListStudentIds(idArray) {
-  if (!idArray.isArray()) {
+  if (idArray.isArray() === false) {
     return [];
   }
 
